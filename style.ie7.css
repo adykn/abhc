@@ -1,0 +1,139 @@
+/* Created by Artisteer v4.1.0.59861 */
+
+.oas-header, #oas-header-bg, .oas-layout-cell, .oas-layout-wrapper, .oas-footer, .oas-nav, #oas-hmenu-bg, .oas-sheet,
+.clearfix {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+
+.oas-textblock > div {
+   display: block;
+   line-height: normal;
+   zoom: 1;
+}
+
+.oas-header
+{
+   z-index: 1;
+   background-image: [headerimage];
+   background-position: [headerposition];
+}
+
+#oas-header-bg 
+{
+   display: none;
+}
+
+.oas-hmenu>li, .oas-hmenu>li>a
+{
+   display: inline !important;
+   zoom: 1;
+   float: none !important;
+   vertical-align: top;
+}
+ul.oas-hmenu, ul.oas-hmenu ul {
+   zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).className="cleared");
+}
+#oas-hmenu-bg 
+{
+   display: none;
+}
+
+ul.oas-hmenu>li:first-child {
+   padding-right:6px;
+}
+
+ul.oas-hmenu ul{
+   background-color: #EFF2F5 !important;
+}
+
+.oas-content-layout, .oas-content-layout-row, .oas-layout-cell 
+{
+   display: block;
+   zoom: 1;
+}
+.oas-layout-cell
+{
+   position:relative;
+   float: left;
+   clear: right;
+}
+
+input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+* html input[type="text"]
+{
+   margin :0;
+}
+
+form.oas-search>input[type="text"]
+{
+   margin:0 0 0 -3px;
+   zoom:expression(runtimeStyle.zoom = 1, parentNode.insertBefore(document.createElement('div'), this).appendChild(this));
+}
+
+form.oas-search div>input[type="text"]
+{
+   width: 100%;
+}
+
+* html form.oas-search>input[type="text"] 
+{
+   margin :0;
+}
+
+.oas-postmetadataheader{
+   zoom:1;
+}
+
+.oas-postheadericons span{
+   zoom: 1;
+}
+.oas-postcontent {
+   height: 1%;
+}
+
+.oas-postmetadatafooter{
+   zoom:1;
+}
+
+.oas-postfootericons span{
+   zoom: 1;
+}
+.close-alt, .arrow-right-alt, .arrow-left-alt {
+   display: block !important;
+}
+.cw, .ccw {
+   display: none !important;
+}
+
+.oas-sidebar1
+{
+   background: none !important;
+   border: none !important;
+   zoom:expression(runtimeStyle.zoom=1, parentNode.parentNode.insertBefore(document.createElement('div'),parentNode.parentNode.firstChild).className='oas-sidebar1-bg' + (className.indexOf('oas-sidebar1-fix') == -1 ? '' : ' oas-sidebar1-bg-fix' ));
+}
+
+.oas-sidebar1-bg 
+{
+   border-right:1px dotted #A3B4C8;
+   position:absolute;
+   z-index:-2;
+   direction: ltr;
+   left:  0;
+   bottom:0;
+   top:0;
+   width: 275px;
+   overflow:hidden;
+   display:block;
+}
+
+.oas-content 
+{
+   width: auto;
+   float:none;
+}
+
